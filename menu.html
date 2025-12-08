@@ -22,59 +22,64 @@
        <div>
           <h3>Evearyday Naija</h3>
            <select>
-             <label for="wr">White Rice</label><input id="wr" type="radio">
-             <label for="jr">Jollof Rice</label><input id="jr" type="radio">
-             <label for="spag">Spaghetti</label><input id="spag" type="radio">
-             <label for="cr">Coconut Rice</label><input id="cr" type="radio">
-             <label for="fr">Fried Rice</label><input id="fr" type="radio">
+             <label for="wr">White Rice</label><input id="wr" type="radio"><br>
+             <label for="jr">Jollof Rice</label><input id="jr" type="radio"><br>
+             <label for="spag">Spaghetti</label><input id="spag" type="radio"><br>
+             <label for="cr">Coconut Rice</label><input id="cr" type="radio"><br>
+             <label for="fr">Fried Rice</label><input id="fr" type="radio"><br>
            </select>
        </div>
        <div>
           <h3> Trad Combo</h3>
             <select>
-              <label for="eb">Eba</label><input id="eb" type="radio">
-              <label for="ama">Amala</label><input id="ama" type="radio">
-              <label for="fu">Fufu</label><input id="fu" type="radio">
-              <label for="py">Pounded Yam</label><input id="py" type="radio">
-              <label for="wh">Wheat</label><input id="wh" type="radio">
-              <label for="sem">Semo</label><input id="sem" type="radio">
+              <label for="eb">Eba</label><input id="eb" type="radio"><br>
+              <label for="ama">Amala</label><input id="ama" type="radio"><br>
+              <label for="fu">Fufu</label><input id="fu" type="radio"><br>
+              <label for="py">Pounded Yam</label><input id="py" type="radio"><br>
+              <label for="wh">Wheat</label><input id="wh" type="radio"><br>
             </select>
         </div>
         <div>
          <h3>Soups</h3>
            <p> We have several options for you</p>
            <select>
-             <option id="ew" type="checkbox">Ewedu</option>
-             <option id="gbe" type="checkbox">Gbegiri</option>
-             <option id="efo" type="checkbox">Efo Riro</option>
-             <option id="ila" type="checkbox">Okra</option>
-             <option id="afg" type="checkbox">Afang</option>
-             <option id="egs" type="checkbox">Egusi</option>
+             <option>Ewedu</option>
+             <option>Gbegiri</option>
+             <option>Efo Riro</option>
+             <option>Okra</option>
+             <option>Afang</option>
+             <option>Egusi</option>
            </select>
         </div>
         <div>
-            <h3> Assorted Extras</h3>
-            <option id="gm" type="checkbox">Goat Meat</option>
-            <option id="bf" type="checkbox">Beef</option>
-            <option id="pk" type="checkbox">Pork</option>
-            <option id="sy" type="checkbox">Suya</option>
-            <option id="bm" type="checkbox">Bush Meat</option>
-            <option id="cr" type="checkbox">Croaker</option>
-            <option id="ti" type="checkbox">Titus</option>
-            <option id="sn" type="checkbox">Snail</option>
+          <h3> Assorted Extras</h3>
+           <select>
+            <label for="gm">Goat Meat</label><input id="gm" type="radio"><br>
+            <label for="bf">Beef</label><input id="bf" type="radio"><br>
+            <label for="tk">Turkey</label><input id="tk" type="radio"><br>
+            <label for="pk">Pork</label><input id="pk" type="radio"><br>
+            <label for="ch">Chicken</label><input id="ch" type="radio"><br>
+            <label for="bm">Bush Meat</label><input id="bm" type="radio"><br>
+            <label for="ck">Croaker</label><input id="ck" type="radio"><br>
+            <label for="ti">Titus</label><input id="ti" type="radio"><br>
+            <label for="sn">Snail</label><input id="sn" type="radio"><br>
+           </select>
         </div>
         <div>
-           <h3>Easy Delights</h3>
-           <option id="bb" type="checkbox" onclick= alert (Choose your suitable partner)> Bread 'N' Beans</option>
-           <option id="por" type="checkbox">Porrige</option>
-           <option id="egs" type="checkbox">Beans 'N' Plantain</option>
-           <option id="be" type="checkbox">Bread With Egg Sauce</option>
-           <option id="indo" type="checkbox">Indomie Confetti</option>
-           <option id="pam" type="checkbox">Pap & Akara/Moimoi</option>
-           <option id="sal" type="checkbox">Salad</option>
-           <option id="sw" type="checkbox">Sandwich</option>
-           <option id="sw" type="checkbox">Yamarita et Sauce</option>
-           <option id="ps" type="checkbox">Peppersoup</option>
+          <h3>Easy Delights</h3>
+           <select>
+            <label for="bb"> Bread 'N' Beans</label><input type="radio">
+            <optio id="por" type="checkbox">Porrige</option>
+            <option id="egs" type="checkbox">Beans 'N' Plantain</option>
+            <option id="be" type="checkbox">Bread With Egg Sauce</option>
+            <option id="indo" type="checkbox">Indomie Confetti</option>
+            <option id="pam" type="checkbox">Pap & Akara/Moimoi</option>
+            <option id="sal" type="checkbox">Salad</option>
+            <option id="sw" type="checkbox">Sandwich</option>
+            <option id="sw" type="checkbox">Yamarita et Sauce</option>
+            <option id="ps" type="checkbox">Peppersoup</option>
+            <label for="snc">Suya 'N' Chips</label><input id="snc" type="radio">
+           </select>
         </div>
         <div>
             <h3>Snack Bites</h3>
@@ -91,11 +96,13 @@
     <section>
         <h3>Payment</h3>
         <p>Select a payment method:</p>
-        <select id="csh" > Pay with Cash</select>
-        <select id="tr" >Transfer</select>
+        <select>
+          <option name="csh" value="cash" > Pay with Cash</option>
+          <option name="tsf" value="bank" > Transfer</option>
+        </select>
         <p>Are you a new customer?</p>
-           <option id="yes" type="checkbox" onclick="Congrats! your first meal with us is free!">Yes</option>
-           <option id="no" type="checkbox" onclick="Enjoy 25% discount for your meal!">No</option>
+           <label for="yes" type="checkbox" onclick="Congrats! your first meal with us is free!">Yes</option>
+           <label for="no" type="checkbox" onclick="Enjoy 25% discount for your meal!">No</option>
         <button onclick="Your receipt is being procesed">Submit</button>
     </section>
     <section>

@@ -1,1 +1,1 @@
-A food menu website called Come Again... varieties of delicacies included, satisfaction guaranteed 
+Varieties of delicacies to choose from. Satisfaction guaranteed!
